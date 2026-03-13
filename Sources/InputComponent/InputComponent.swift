@@ -18,7 +18,7 @@ public struct InputComponent: View {
     @State private var error: String?
     @FocusState private var focused: Bool
     
-    init(type: InputComponentType,
+    public init(type: InputComponentType,
          style: InputComponentStyle = .rounded,
         placeholder: LocalizedStringResource? = nil) {
         self.type = type
