@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum InputComponentStyle {
+public enum InputComponentStyle {
     case rounded
     case dashed
     case underline

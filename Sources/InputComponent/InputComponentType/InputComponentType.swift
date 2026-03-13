@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum InputComponentType {
+public enum InputComponentType {
     case email
     case password
     case name
